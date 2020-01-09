@@ -1,0 +1,13 @@
+.intro {
+  &_title {
+    font-family: $font_1;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    ~ p {
+      font-family: $font_2;
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
+    }
+  }
+}
