@@ -12,7 +12,7 @@ links:
     url:          /
     external:     false
   - name:         About me
-    url:          /about
+    url:          /about/
     external:     false
 # ------------ CONFIGURABLE END ------------
 
