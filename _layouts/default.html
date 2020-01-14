@@ -14,6 +14,11 @@
       </a>
       <p>{{ site.title }}</p>
     </header>
+    {%- if page.intro %}
+    <div class="mw7 bg-white mt4 center br2-ns bt bb ba-ns b--light-gray pa4 pa5-ns">
+      {% include intro.html %}
+    </div>
+    {%- endif %}
     <div class="mw7 bg-white mt4 mb3 center br2-ns bt bb ba-ns b--light-gray">
       <nav class="bb b--light-gray pv4 tc" aria-label="Main">
         {% for link in site.links %}
