@@ -1,4 +1,5 @@
 .intro {
+  text-align: center;
   &_title {
     font-family: $font_1;
     font-size: 2.5rem;
@@ -9,5 +10,10 @@
       font-size: 1.25rem;
       margin-top: 0.5rem;
     }
+  }
+  &_image {
+    display: inline-block;
+    width: 90%;
+    max-width: 5rem;
   }
 }
