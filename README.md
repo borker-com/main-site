@@ -5,7 +5,7 @@ A modification of the Scribble theme.
 
 ## Make it yours
 
-1. Edit `_config.yml`, adn then rerun `jekyll serve -w`
+1. Edit `_config.yml`, and then rerun `jekyll serve -w`
 
 2. Change `about.md` for blog intro
 
