@@ -1,11 +1,14 @@
 # ----------- CONFIGURABLE START -----------
-title:            "Scribble"
-description:      "Such theme, very cool."
-url:              http://scribble.muan.co # Site url, without a slash at the end.
-signoff:          "muan" # Your name
+title:            "Borker dot Com"
+description:      "Ryan Borker's site"
+url:              http://borker.com # Site url, without a slash at the end.
+signoff:          "ryan" # Your name
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
-share:            false # Turn on twitter and facebook share buttons
+google_analytics: UA-86377416-4 # Set tracking, remove from /javascripts/basic.js if unwanted.
+share:            true # Turn on twitter and facebook share buttons
+email:            ryan@borker.com
+twitter:          borker
+
 
 links:
   - name:         Posts

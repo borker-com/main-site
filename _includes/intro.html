@@ -1,6 +1,6 @@
 <section class="intro">
   {% assign block = page.block %}
-  <img src="/images/{{ block.image }}" alt="" class="intro_image">
+	<!-- Removing the image: markdown in #intro  <img src="/images/{{ block.image }}" alt="" class="intro_image"> -->
   <h1 class="intro_title">{{ block.title }}</h1>
   {{ block.description | markdownify }}
 </section>
